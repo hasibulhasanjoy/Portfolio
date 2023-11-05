@@ -48,10 +48,19 @@ body {
   color: black;
   text-decoration: none;
 }
+.MainBody {
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #6284ff 50%,
+    #ff0000 100%
+  );
+}
 .about {
   height: 45vh;
   width: 100vw;
-  background-color: rgba(102, 51, 153, 0.278);
+  /* background-color: rgba(102, 51, 153, 0.278); */
   display: flex;
 }
 .about h3 {
@@ -95,4 +104,17 @@ body {
 }
 .Achievement ol {
   list-style: decimal inside;
+}
+.contact {
+  height: 35vh;
+  width: 100vw;
+  font-size: 7rem;
+  /* margin: 2vw; */
+}
+.contact h3 {
+  display: flex;
+  justify-content: center;
+}
+.contact ul {
+  list-style: none inside;
 }
